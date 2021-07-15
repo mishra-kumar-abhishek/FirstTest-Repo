@@ -20,3 +20,7 @@ git add Filename.extension -->ex- Test.txt
 git commit -m "Message" Filename.ext 
 15) Once commit is then then we have to push those file on git using below command
 git push -u origin master
+16) I have experienced error (fatal: unable to access 'https://github.com/username/FirstTest-Repo.git/': The requested URL returned error: 403)
+So i have resolved this by doing some steps.
+a) First i have removed my older github account which was saved in Control Panel\User Accounts\Credential Manager.
+b) Then i have updated my git bash using command git update-git-for-windows.
