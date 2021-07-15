@@ -1,0 +1,22 @@
+-- Download and install git bash to use cli.
+1) After creating account on git hub. Create a Repository in it.
+2) Now create a folder in your drive with any name let say Git.
+3) Now come to git cli and set the path . cd /c
+4) By this you  path set to c drive.
+5) The set the folder, let say in c drive you have Git folder, so --> cd Git/
+6) This will set you path to C:/Git
+7) Now if you want to check the list of this file and data in this drive then type --> ls
+8) Now configure you user name by using below command
+git config --global user.name "your user name"  should be in double quote.
+9) Now configure your email by using below command
+git config --global user.email your email id
+10) Now copy the url from your git hub account to clone this and use below command
+git clone paste that url. example https://github.com/username/Repositoryname.git
+11) Once clone is done then set the Repository folder path using cd Reposirty name/
+12) Then create any file in that drive location and save it.
+13)  Then add those file on git hub using below command
+git add Filename.extension -->ex- Test.txt
+14) The commit those file using below command
+git commit -m "Message" Filename.ext 
+15) Once commit is then then we have to push those file on git using below command
+git push -u origin master
